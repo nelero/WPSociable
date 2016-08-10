@@ -136,6 +136,8 @@ $args = array(
 ); 
 
 $image = "";
+
+$attachments =get_posts( $args);
 if ($attachments) {
 	foreach ($attachments as $attachment) {
 		//echo apply_filters('the_title', $attachment->post_title);
