@@ -351,7 +351,7 @@ if ($attachments) {
 
 			}else{
 
-				if (count(split("Counter",$sitename))>1){
+				if (count(preg_split("Counter",$sitename))>1){
 
 					$link.= $href;
 
